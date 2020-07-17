@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/BLue"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <EditText
+        android:id="@+id/roll_no_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Roll_EditText_hint"
+        android:inputType="number" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/name_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Name_EditText_hint" />
+
+    <EditText
+        android:id="@+id/marks_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Marks_EditText_hint"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp" >
+
+        <Button
+            android:id="@+id/insertButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/addButton_Text" />
+
+        <Button
+            android:id="@+id/deleteButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/deleteButton_Text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp" >
+
+        <Button
+            android:id="@+id/updateButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/modifyButton_Text" />
+
+        <Button
+            android:id="@+id/viewButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/viewButton_Text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74" >
+
+        <Button
+            android:id="@+id/view_allButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/view_allButton_Text" />
+
+        <Button
+            android:id="@+id/showButton_Id"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="@color/Pink"
+            android:text="@string/showButton_Text" />
+
+    </LinearLayout>
+
+</LinearLayout>

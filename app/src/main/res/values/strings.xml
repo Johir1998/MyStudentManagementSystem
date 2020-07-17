@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyStudentManagementSystem</string>
+    <string name="Roll_EditText_hint">Enter your roll no.</string>
+    <string name="Name_EditText_hint">Enter your name</string>
+    <string name="Marks_EditText_hint">Enter your marks</string>
+    <string name="addButton_Text">insert</string>
+    <string name="deleteButton_Text">delete</string>
+    <string name="modifyButton_Text">update</string>
+    <string name="viewButton_Text">view</string>
+    <string name="view_allButton_Text">view all</string>
+    <string name="showButton_Text">show</string>
+    <string name="action_settings">Settings</string>
+</resources>
